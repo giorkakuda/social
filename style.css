@@ -9,7 +9,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: black
 }
 
 main {
@@ -25,14 +25,15 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background-image: url(imagens/iphone14.jpeg);
+    background: url(imagens/iphone14.png) no-repeat;
 }
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 471px;
+    top: 16px;
+    left: 25px;
+    width: 252.5px;
+    height: 544px;
+    border-radius: 30px;
 }
 section#social {
     text-align: right;
