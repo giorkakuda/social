@@ -9,7 +9,11 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black
+    background-image: url(imagens/doge1.jpg);
+    background-size: auto;
+    display: block;
+    background-repeat: no-repeat;
+    
 }
 
 main {
@@ -50,4 +54,15 @@ section#social img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px goldenrod;
     transition: transform 0.5s;
+}
+
+@media screen and (min-width: 768px) and (min-width: 992px) {
+    body {
+        background-image: url(imagens/fundo-doge.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    
 }
